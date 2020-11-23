@@ -34,8 +34,8 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-   produce = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-   produce.sort
+   produce = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+   
    return produce[1][1]
 end
 
